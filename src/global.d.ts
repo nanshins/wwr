@@ -4,6 +4,7 @@ type WindowConfig = {
   appId: string;
   buildId: string;
   api: string;
+  baseUrl: string;
   staticUri: string;
 };
 

@@ -8,6 +8,7 @@ const initialConfig: WindowConfig = {
   appId: "",
   buildId: "",
   api: "",
+  baseUrl: "",
   staticUri: ""
 };
 
@@ -29,4 +30,4 @@ const SiteConfigProvider: FC = ({ children }) => {
 
 const useSiteConfig = () => useContext(SiteConfigContext);
 
-export { SiteConfigProvider, useSiteConfig };
+export { SiteConfigContext, SiteConfigProvider, useSiteConfig };
